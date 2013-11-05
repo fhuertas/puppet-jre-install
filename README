@@ -1,8 +1,10 @@
-Author: Francisco Huertas Ferrer <francisco.huertas@centeropenmiddleware.com>
-Center: Center for Open Middleware, Universidad Politecnica de Madrid
-License: Apache 2.0
-
-This module installs jre in a system that not has package system. Actually only has support to Debian OS family. To add support to others OS families must be create the template scripts. See template folder. 
-
-The documentation must be update will be updated
-
+Author: Francisco Huertas Ferrer "francisco.huertas@centeropenmiddleware.com"<br>
+Center: Center for Open Middleware, Universidad Politecnica de Madrid<br>
+License: Apache 2.0<br>
+Minimum version of puppet core 3.2<br>
+<br>
+This module installs jre in a system that not has package system. Actually only has support to Debian OS family. To add support to others OS families must be create the template scripts. See template folder. <br>
+<br>
+The documentation must be update will be updated<br>
+<br>
+It is necesary to ability the Experimental parser for the versio 3.2. ("parser = future" in puppet.conf for agent and master) more information <a href="http://puppetlabs.com/blog/puppet-3-2-introduces-an-experimental-parser-and-new-iteration-features">here</a><br>
