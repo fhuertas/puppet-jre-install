@@ -1,0 +1,8 @@
+Author: Francisco Huertas Ferrer <francisco.huertas@centeropenmiddleware.com>
+Center: Center for Open Middleware, Universidad Politecnica de Madrid
+License: Apache 2.0
+
+This module installs jre in a system that not has package system. Actually only has support to Debian OS family. To add support to others OS families must be create the template scripts. See template folder. 
+
+The documentation must be update will be updated
+

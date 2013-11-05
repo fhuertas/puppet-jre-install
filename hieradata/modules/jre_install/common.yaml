@@ -1,0 +1,12 @@
+# jre_intall, puppet
+# common.yaml.
+# Copyright Francisco Huertas, Center for Open Middleware, Universidad Politecnica de Madrid
+
+persistent_dir         : '' # the persistent directory
+jre_package            : '' # folder in where jre is uncompressed
+jre_filename           : '' #filename of jre
+ - *jre_package
+ - 'tar.gz'
+installation_path      : '' #path where the jre must be installed
+installation_directory : '' # folder where the jre must be installed 
+java_home              : '' # The path where the jre will be installed
