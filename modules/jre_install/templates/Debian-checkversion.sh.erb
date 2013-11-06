@@ -13,7 +13,8 @@ if [ "$md5_1" == "$md5_2" ]; then
 else 
   echo "updating tomcat" > "result.txt"
   tar xzvf <%= @jre_filename %> 
-  mv <%= @jre_package %> <%= @java_home %>
+  mv <%= @jre_package %> <%= @installation_directory %>
+  rsync -avzh --progress <%= @installation_directory %>/ <%= @java_home %> && rm -rf <%= @installation_directory %>/
   # if there are a upgrading, the new version is saved. 
   cp <%= @jre_filename %> <%= @jre_filename %>.back 
 fi 

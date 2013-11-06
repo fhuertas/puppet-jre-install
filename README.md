@@ -8,6 +8,8 @@ Center: Center for Open Middleware, Universidad Politecnica de Madrid
 
 License: Apache 2.0
 
+Version: 0.0.2
+
 ## Module description
 
 This module installs Java-JRE in a System using Puppet. This installation does not use the package system of the OS system.
