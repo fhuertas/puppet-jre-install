@@ -1,0 +1,7 @@
+name 'fhuertas-jre_install'
+version '0.0.1'
+description "Install a JRE without package system"
+project_page "https://github.com/yunxao/puppet_manual_jre_install"
+license "Apache 2.0"
+author "Francisco Huertas Ferrer"
+
