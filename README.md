@@ -36,9 +36,9 @@ To create support other OS families, must be performed the following steps:
 ### Requisites 
 
 * Puppet core version: >= 3.2
-* OS Family: Debian (Ubuntu is supported too)
+* OS Family supported: Debian (Ubuntu is supported too)
 * Enable the Experimental parser for 3.2.X version. 
-* Hiera Installed.  Installation [guide](http://docs.puppetlabs.com/hiera/1/installing.html)
+* Install and configure hiera.  Installation [guide](http://docs.puppetlabs.com/hiera/1/installing.html)
 
 NOTE: How to enable experimental parser (*Only for 3.2.X core version*): Edit the puppet.conf file in the master node, that is in the puppet directory, and add this line ``parser=future`` in the master tag. 
 
@@ -51,7 +51,7 @@ NOTE: How to enable experimental parser (*Only for 3.2.X core version*): Edit th
 
 ### Installation: 
 
-* Copy the module directory in the puppet module directory
+* Copy the module directory in the modules folder. 
 
 ### Setup
 
@@ -80,5 +80,4 @@ Example:
      - *installation_path
      - '/'
      - *installation_directory
-
 
