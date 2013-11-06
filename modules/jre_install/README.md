@@ -8,7 +8,7 @@ Center: Center for Open Middleware, Universidad Politecnica de Madrid
 
 License: Apache 2.0
 
-Version: 0.0.2
+Version: 0.0.1
 
 ## Module description
 
